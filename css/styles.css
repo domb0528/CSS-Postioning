@@ -1,33 +1,17 @@
 
 h1 {
-    position: relative;
-    margin: 20px 10px;
-    float: right;
-    
-    
+    position: relative;   
 }
+
 nav {
-    position: fixed;
-    text-align: center;
-    text-decoration: none;
+    display: inline-block;
     list-style: none;
-    
-    
 }
 
-li a {
+a {
     text-decoration: none;
 }
 
-
-
-
-h2 {
-    margin: 20px;
-    padding: 25px;
-    text-align: left;
-    
-}
 span {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
