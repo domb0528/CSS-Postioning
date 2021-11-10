@@ -1,5 +1,5 @@
 body {
-    background-image: url(../image/clouds.png);
+    background-color: skyblue;
 }
 h1 {
     position: relative;  
@@ -33,4 +33,18 @@ li {
     list-style: none;
     float: right;
     margin: 10px;
+}
+.cloud {
+    -webkit-animation: animateCloud 35s linear infinite;
+	-moz-animation: animateCloud 35s linear infinite;
+	animation: animateCloud 35s linear infinite;
+}
+
+@keyframes animateCloud {
+    0% {
+        margin-left: -300px;
+    }
+    100% {
+        margin-left: 100%;
+    }
 }
