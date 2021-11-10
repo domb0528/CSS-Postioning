@@ -2,7 +2,7 @@ body {
     background-image: url(../image/clouds.png);
 }
 h1 {
-    position: relative;   
+    position: relative;  
 }
 
 nav {
@@ -12,13 +12,13 @@ nav {
 
 a {
     text-decoration: none;
+    
 }
 
 span {
     font-family: 'Times New Roman', Times, serif;
     font-weight: bold;
-    font-size: 20pt;
-    
+    font-size: 20pt;    
 }
 
 p {
@@ -28,3 +28,9 @@ div :hover {
     background-color: white;
 }
 
+li {
+    color: crimson;
+    list-style: none;
+    float: right;
+    margin: 10px;
+}
